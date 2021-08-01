@@ -1,0 +1,43 @@
+{
+  "name": "training_token_erc20_for_4ireacademy",
+  "version": "1.0.0",
+  "description": "An implementation of the Investment pool on Ethereum",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "truffle": "truffle compile",
+    "migrate-rinkeby": "truffle migrate --network rinkeby --reset --f 2 -t 2",
+    "verify": "truffle run verify Coin --network rinkeby",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "rimraf build/contracts && truffle compile"
+  },
+  "dependencies": {
+    "@typechain/web3-v1": "^1.0.0",
+    "dotenv": "^8.2.0",
+    "ethers": "^5.0.23",
+    "truffle-hdwallet-provider": "^1.0.17"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.2.0",
+    "@truffle/hdwallet-provider": "^1.4.2",
+    "@typechain/ethers-v5": "^1.0.0",
+    "rimraf": "^3.0.2",
+    "solidity-coverage": "^0.7.16",
+    "truffle": "^5.3.6",
+    "truffle-plugin-verify": "^0.5.11",
+    "typechain": "^2.0.0",
+    "typescript": "^3.7.0"
+  },
+  "author": "Alexander Bolotov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BolotovAlexander/Solidity_Investors_Pool/issues"
+  },
+  "homepage": "https://github.com/BolotovAlexander/Solidity_Investors_Pool#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BolotovAlexander/Solidity_Investors_Pool.git"
+  }
+}
