@@ -2,6 +2,7 @@
 
 Training token ERC20 for 4ireacademy
 "NSIPC" - No Scam Investors Pool Coin
+
 An implementation of the Investment pool on Ethereum
 
 ## Deploy contract to network
@@ -11,7 +12,7 @@ This installation guide expects that have global installed `ganache-cli` and `tr
 ### Clone repository
 
 ```bash
-git clone git@github.com:cdxpro/investment-pool-svyryd-volodymyr.git
+git clone git@github.com:BolotovAlexander/Solidity_Investors_Pool.git
 ```
 
 ### Install dependencies
@@ -22,7 +23,7 @@ npm install
 ### Copy config file and place your environment variables to .env file
 
 ```bash
-cp .env.example .env
+cp .env-example .env
 ```
 
 ### Building and deploy contract
@@ -49,4 +50,6 @@ truffle run coverage
 
 ## License
 
-`BolotovAlexander/Solidity_Investors_Pool` is released under the MIT License. See the bundled [LICENSE](./LICENSE) for details.
+`BolotovAlexander/Solidity_Investors_Pool` is released under the MIT License.
+
+See the bundled [LICENSE](./LICENSE) for details.
