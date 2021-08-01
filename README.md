@@ -1,9 +1,8 @@
 # Alexander Bolotov
 
 Training token ERC20 for 4ireacademy
-"NSIPC" - No Scam Investors Pool Coin
-
-An implementation of the Investment pool on Ethereum
+<br />"NSIPC" - No Scam Investors Pool Coin
+<br />An implementation of the Investment pool on Ethereum
 
 ## Deploy contract to network
 
@@ -51,5 +50,4 @@ truffle run coverage
 ## License
 
 `BolotovAlexander/Solidity_Investors_Pool` is released under the MIT License.
-
-See the bundled [LICENSE](./LICENSE) for details.
+<br />See the bundled [LICENSE](./LICENSE) for details.
