@@ -10,14 +10,16 @@
     "truffle": "truffle compile",
     "migrate-rinkeby": "truffle migrate --network rinkeby --reset --f 2 -t 2",
     "verify": "truffle run verify Coin --network rinkeby",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "rimraf build/contracts && truffle compile"
+    "test": "truffle test",
+    "compile": "rimraf build/contracts && truffle compile",
+    "test coverage": "truffle run coverage"
   },
   "dependencies": {
     "@typechain/web3-v1": "^1.0.0",
     "dotenv": "^8.2.0",
     "ethers": "^5.0.23",
-    "truffle-hdwallet-provider": "^1.0.17"
+    "truffle-hdwallet-provider": "^1.0.17",
+    "@openzeppelin/test-helpers": "^0.5.9"
   },
   "devDependencies": {
     "@openzeppelin/contracts": "^4.2.0",

@@ -38,13 +38,13 @@ For local environment you should run `ganache-cli`
 ### Run test
 
 ```bash
-truffle test
+test
 ```
 
 ### Coverage
 
 ```bash
-truffle run coverage
+test coverage
 ```
 
 ## License
